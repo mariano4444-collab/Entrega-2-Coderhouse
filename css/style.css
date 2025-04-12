@@ -148,3 +148,68 @@ header {
 /* fin mediaquery */
 
 /* main fin */
+
+/* section-1 inicio */
+
+.sec-1-inicio {
+    background-color: #6EA4BF;
+    border-top: 2px solid #fff;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec-1-inicio-div1 {
+    max-width: 900px;
+}
+
+.sec-1-inicio h2 {
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    padding: 25px 0px 50px 0px;
+}
+
+.sec-1-inicio-box1 {
+    background-image: url(../img/Inicio/img1-inicio-sec3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 5px solid #6EA4BF;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+.sec-1-inicio-box2 {
+    background-image: url(../img/Inicio/img2-inicio-sec3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border: 5px solid #6EA4BF;
+    box-shadow: inset 0px 0px 0px 3px #fff;
+}
+
+.sec-1-inicio p {
+    color: #fff;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* inicio mediaquery */
+
+@media (min-width:870px) {
+
+    .sec-1-inicio-box1,
+    .sec-1-inicio-box2 {
+        height: 380px;
+    }
+
+    .sec-1-inicio p {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+}
+
+/* fin mediquery */
+
+/* section-1 fin */
