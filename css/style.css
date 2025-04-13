@@ -387,6 +387,10 @@ footer {
     font-weight: 500;
 }
 
+.footer-box3 a:hover {
+    color: #fff;
+}
+
 .fila-2-footer p {
     margin-bottom: 0;
     margin-top: 10px;
