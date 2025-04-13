@@ -908,3 +908,33 @@ footer {
 /* fin mediaquery */
 
 /* section-3 fin */
+
+/* footer inicio */
+
+.footer-comida{
+    background-color: #EDDEA4;
+}
+
+/* footer fin */
+
+/* up inicio */
+
+.up-comida{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #fff;
+    border: 2px solid #397367;
+    border-radius: 50%;
+    padding: 0px 7px;
+    color: #397367;
+    font-size: 25px;
+}
+
+.up-comida:hover{
+    color: #63CCCA;
+    border-color: #63CCCA;
+    background-color: #000;
+}
+
+/* up fin */
