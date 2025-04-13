@@ -332,3 +332,80 @@ header {
 /* fin mediaquery */
 
 /* section-3 fin */
+
+/* footer inicio */
+
+footer {
+    border-top: 2px solid #fff;
+    padding: 15px 25px 0px 25px;
+    background-color: #B49A67;
+}
+
+.footer-box1 {
+    text-align: center;
+    border-bottom: 1px solid #000;
+}
+
+.footer-box1 h3 {
+    font-weight: bold;
+}
+
+.footer-box2 {
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+
+.footer-box2 h3 {
+    font-weight: bold;
+}
+
+.redes {
+    font-size: 35px;
+    margin-top: 30px;
+}
+
+.footer-box3 {
+    text-align: center;
+    padding: 25px 0px;
+}
+
+.footer-box3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-box3 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.fila-2-footer p {
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding: 20px 0px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
+
+/* inicio mediaquery */
+
+@media (min-width:576px) {
+    .footer-box1 {
+        border-bottom: none;
+        border-right: 1px solid #000;
+    }
+
+    .footer-box2 {
+        border-bottom: none;
+        border-right: 1px solid #000;
+    }
+}
+
+/* fin mediaquery */
+
+/* footer fin */
+
