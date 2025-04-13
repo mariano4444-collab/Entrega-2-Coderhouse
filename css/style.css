@@ -439,3 +439,58 @@ footer {
 }
 
 /* up fin */
+
+/* PAGINA COMIDA */
+
+/* header inicio */
+
+.navbar-nav-comida a:hover{
+    color: #397367 !important;
+}
+
+/* header fin */
+
+/* main inicio */
+
+.main-comida {
+    background-image: url(../img/Comida/img1-comida-sec1.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-top: 1px solid #fff;
+}
+
+.main-comida-box1 {
+    background-color: #397367;
+    width: 300px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+}
+
+.main-comida-box1 p {
+    color: #fff;
+}
+
+.main-comida-box1 h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.main-comida-box1 a {
+    text-decoration: none;
+    color: #397367;
+    background-color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+/* main fin */
